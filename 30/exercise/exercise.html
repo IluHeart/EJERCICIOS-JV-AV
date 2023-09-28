@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <div id="container">
+      <form>
+        <div>
+          <label>First Name:</label>
+          <input type="text" class="form-input" id="firstName" value="Ilies" />
+        </div>
+        <div>
+          <label>Last Name:</label>
+          <input type="text" class="form-input" id="lastName" value="Guellaf" />
+        </div>
+        <div>
+          <label>Age:</label>
+          <input type="number" class="form-input" id="age" value="21" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const firstNameInput = document.getElementById("firstName");
+
+    const firstNameValue = firstNameInput.value;
+
+    console.log(firstNameValue);
+  });
+</script>
